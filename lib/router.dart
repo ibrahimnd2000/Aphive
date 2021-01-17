@@ -1,18 +1,16 @@
-import 'package:Aphive/features/buy_points/presentation/pages/buy_points_page.dart';
-import 'package:Aphive/features/buy_points/presentation/widgets/aphive_confirmation_dialog.dart';
-import 'package:Aphive/features/gift_points/presentation/pages/gift_points_to_a_friend_page_1.dart';
-import 'package:Aphive/features/gift_points/presentation/pages/gift_points_to_a_friend_page_2.dart';
-import 'package:Aphive/features/gift_points/presentation/pages/gift_points_to_a_friend_page_3.dart';
-import 'package:Aphive/features/gift_points/presentation/widgets/gift_point_dialog.dart';
-import 'package:Aphive/features/points_main/presentation/pages/points_main_page.dart';
+import 'package:Aphive/pages/buy_points/buy_points_page.dart';
+import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_1.dart';
+import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_2.dart';
+import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_3.dart';
+import 'package:Aphive/pages/points_main/points_main_page.dart';
+import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/dialog/aphive_confirmation_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:Aphive/features/home/homepage.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (_) => HomePage());
+        return MaterialPageRoute(builder: (_) => PointsMainPage());
       case '/buy_points':
         return MaterialPageRoute(builder: (_) => BuyPointsPage());
       case '/points_main':

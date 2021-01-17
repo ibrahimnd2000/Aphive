@@ -32,4 +32,4 @@ const String review = "Review";
 const String points_to_gift = "Points to gift: ";
 const String points_to_gift_val = "[PointsGiving]";
 const String aphive_balance_points = "Your Aphive point balance:";
-const String greetings = "Hi [USERNAME]";
+const String greetings = "Hi [UserName]";

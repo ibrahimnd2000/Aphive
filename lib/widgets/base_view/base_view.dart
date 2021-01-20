@@ -1,4 +1,4 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/appbar/aphive_appbar.dart';
+import 'package:Aphive/widgets/appbar/aphive_appbar.dart';
 import 'package:flutter/material.dart';
 
 class BaseView extends StatelessWidget {

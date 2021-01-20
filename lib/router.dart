@@ -3,7 +3,7 @@ import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_1.dart';
 import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_2.dart';
 import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_3.dart';
 import 'package:Aphive/pages/points_main/points_main_page.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/dialog/aphive_confirmation_dialog.dart';
+import 'package:Aphive/widgets/dialog/aphive_confirmation_dialog.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {

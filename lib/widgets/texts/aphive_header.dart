@@ -1,10 +1,10 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/logo/aphive_logo.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_title.dart';
+import 'package:Aphive/widgets/logo/aphive_logo.dart';
+import 'package:Aphive/widgets/texts/aphive_title.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/size_extension.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class AphiveTopHeader extends StatelessWidget {
   @override
@@ -34,7 +34,6 @@ class AphiveTopHeader extends StatelessWidget {
 class AphiveBottomHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [

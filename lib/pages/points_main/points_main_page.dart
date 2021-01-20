@@ -1,12 +1,12 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
 import 'package:Aphive/pages/buy_points/buy_points_page.dart';
 import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_1.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_greetings_text.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/buttons/aphive_menu_buttons.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_point_balance.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/buttons/aphive_menu_buttons.dart';
+import 'package:Aphive/widgets/texts/aphive_greetings_text.dart';
+import 'package:Aphive/widgets/texts/aphive_point_balance.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class PointsMainPage extends StatefulWidget {
   const PointsMainPage({Key key}) : super(key: key);

@@ -1,14 +1,13 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/dialog/aphive_confirmation_dialog.dart';
+import 'package:Aphive/widgets/dialog/aphive_confirmation_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class AphiveBottomSheetMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return SlidingUpPanel(
       isDraggable: false,
       minHeight: ScreenUtil().setHeight(1546),

@@ -1,14 +1,14 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/buttons/aphive_blue_button.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/logo/aphive_logo.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_title.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/base_view/base_view.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/dialog/gift_point_dialog.dart';
+import 'package:Aphive/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/buttons/aphive_blue_button.dart';
+import 'package:Aphive/widgets/dialog/gift_point_dialog.dart';
+import 'package:Aphive/widgets/logo/aphive_logo.dart';
+import 'package:Aphive/widgets/texts/aphive_title.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:flutter_screenutil/size_extension.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class GiftPointsToAFriend3 extends StatefulWidget {
   GiftPointsToAFriend3({Key key}) : super(key: key);
@@ -50,7 +50,6 @@ class _GiftPointsToAFriend3State extends State<GiftPointsToAFriend3> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return BaseView(
       body: Stack(children: [
         Column(

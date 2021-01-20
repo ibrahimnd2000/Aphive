@@ -1,6 +1,6 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class AphiveLogo extends StatelessWidget {
   const AphiveLogo({Key key}) : super(key: key);

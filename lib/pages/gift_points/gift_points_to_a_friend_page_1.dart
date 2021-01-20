@@ -1,14 +1,14 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
 import 'package:Aphive/pages/gift_points/gift_points_to_a_friend_page_2.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/buttons/aphive_blue_button.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_header.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/buttons/aphive_purple_button.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/buttons/aphive_blue_button.dart';
+import 'package:Aphive/widgets/buttons/aphive_purple_button.dart';
+import 'package:Aphive/widgets/texts/aphive_header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:flutter_screenutil/size_extension.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class GiftPointsToAFriend extends StatefulWidget {
   GiftPointsToAFriend({Key key}) : super(key: key);

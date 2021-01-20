@@ -1,8 +1,7 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_screenutil/size_extension.dart';
+import 'package:Aphive/configs/constants.dart';
 
 class AphiveSelectAmount extends StatelessWidget {
   const AphiveSelectAmount({Key key}) : super(key: key);

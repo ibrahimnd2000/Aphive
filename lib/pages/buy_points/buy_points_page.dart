@@ -1,11 +1,8 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/bottom_sheets/aphive_bottom_sheet_main.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/texts/aphive_buy_points_text.dart';
-import 'file:///D:/Aphive%20Project/Aphive/lib/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/base_view/base_view.dart';
+import 'package:Aphive/widgets/bottom_sheets/aphive_bottom_sheet_main.dart';
+import 'package:Aphive/widgets/texts/aphive_buy_points_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class BuyPointsPage extends StatefulWidget {
   BuyPointsPage({Key key}) : super(key: key);

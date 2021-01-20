@@ -1,7 +1,7 @@
-import 'file:///D:/Aphive%20Project/Aphive/lib/configs/constants.dart';
 import 'package:Aphive/router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:Aphive/configs/constants.dart';
 
 void main() {
   runApp(MyApp());
